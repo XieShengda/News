@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_web"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.sender.news.WebActivity">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/progress"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:background="#4169E1"
+        android:padding="8dp">
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="60dp"
+            android:src="@mipmap/app_icon"
+            android:scaleType="centerInside"/>
+        <ProgressBar
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/progress_bar"
+            style="@android:style/Widget.Holo.ProgressBar.Horizontal"
+            android:max="100"
+            android:progress="0"/>
+
+    </LinearLayout>
+
+    <WebView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/content_view"
+        android:visibility="gone"/>
+
+</FrameLayout>

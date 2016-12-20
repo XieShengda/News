@@ -1,0 +1,22 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="263dp"
+    android:height="360dp"
+    android:viewportWidth="263"
+    android:viewportHeight="360">
+    <path
+        android:name="圆角矩形 3"
+        android:pathData="m229.67 33.33v293.33h-196.33v-293.33zm-219.67 -33.33c-5.52 0 -10 4.48 -10 10v340c0 5.52 4.48 10 10 10h243c5.52 0 10 -4.48 10 -10v-340c0 -5.52 -4.48 -10 -10 -10z"
+        android:fillColor="#fff" />
+    <path
+        android:name="形状 1"
+        android:pathData="m64 68v25h135v-25z"
+        android:fillColor="#fff" />
+    <path
+        android:name="形状 1 拷贝"
+        android:pathData="m64 155v25h135v-25z"
+        android:fillColor="#fff" />
+    <path
+        android:name="形状 1 拷贝 2"
+        android:pathData="m64 242v25h135v-25z"
+        android:fillColor="#fff" />
+</vector>
