@@ -4,8 +4,8 @@
     android:id="@+id/activity_main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.sender.news.WeleActivity"
-    android:background="#4169E1">
+    tools:context="com.sender.news.WelActivity"
+    android:background="@color/colorPrimary">
 
     <ImageView
         android:layout_width="200dp"
